@@ -4,8 +4,8 @@
 	"path":"Helpers",
 	"version":"1.0",
 	"description":"",
-	"url": "https://gogs.madology.myds.me/Chataigne/Chataigne_ScriptObjectExplorer",
-	"downloadURL": "",
+	"url": "https://github.com/eLandon/Chataigne_ScriptObjectExplorer",
+	"downloadURL": "https://github.com/eLandon/Chataigne_ScriptObjectExplorer/archive/master.zip",
 	
 	"hasInput":false,
 	"hasOutput":true,

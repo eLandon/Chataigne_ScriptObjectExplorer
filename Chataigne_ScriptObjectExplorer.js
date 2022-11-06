@@ -33,7 +33,13 @@ function getObjectString(){
 
 function getMethodsProperties(myObject){
     script.log("OBJECT : "+local.parameters.object.get());
-	var log = util.getObjectProperties(myObject, true, true);
+	var log = util.getObjectProperties(myObject, true, false);
+	script.log("Parameters :");
+	for (var i = 0 ; i<log.length; i++){
+		script.log(".      "+log[i]);
+	}
+    script.log("\n");
+    var log = util.getObjectProperties(myObject, false, true);
 	script.log("Properties :");
 	for (var i = 0 ; i<log.length; i++){
 		script.log(".      "+log[i]);

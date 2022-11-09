@@ -36,13 +36,13 @@ function getMethodsProperties(myObject){
 	var log = util.getObjectProperties(myObject, true, false);
 	script.log("Parameters :");
 	for (var i = 0 ; i<log.length; i++){
-		script.log(".      "+log[i]);
+		script.log(".      "+log[i]+" : "+myObject[log[i]]);
 	}
     script.log("\n");
     var log = util.getObjectProperties(myObject, false, true);
 	script.log("Properties :");
 	for (var i = 0 ; i<log.length; i++){
-		script.log(".      "+log[i]);
+		script.log(".      "+log[i]+" : ");
 	}
     script.log("\n");
 	log = util.getObjectMethods(myObject);

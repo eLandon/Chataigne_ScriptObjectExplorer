@@ -3,9 +3,9 @@
 	"type":"Empty",
 	"path":"Helpers",
 	"version":"1.0",
-	"description":"",
-	"url": "https://gogs.madology.myds.me/Chataigne/Chataigne_ScriptObjectExplorer",
-	"downloadURL": "",
+	"description":"Module used to print in the loggger all properties and methods of anything in Chataigne that has a script address",
+	"url": "https://github.com/eLandon/Chataigne_ScriptObjectExplorer",
+	"downloadURL": "https://github.com/eLandon/Chataigne_ScriptObjectExplorer/archive/refs/heads/master.zip",
 	
 	"hasInput":false,
 	"hasOutput":true,
